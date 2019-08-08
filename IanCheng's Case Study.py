@@ -11,7 +11,7 @@ from imblearn.metrics import classification_report_imbalanced
 
 
 # Set working directory
-os.chdir(r"D:\STUDY\interview\Tempus")
+os.chdir(r"D:\STUDY")
 # Read the raw data, delimiter="\t"
 data = pd.read_csv("DScasestudy.txt", delimiter="\t")
 # Set dependent and independent variables
